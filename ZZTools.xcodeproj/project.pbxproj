@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1802CF71222D401800D4EC25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CF70222D401800D4EC25 /* AppDelegate.m */; };
+		1802CF74222D401800D4EC25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CF73222D401800D4EC25 /* ViewController.m */; };
+		1802CF77222D401800D4EC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1802CF75222D401800D4EC25 /* Main.storyboard */; };
+		1802CF79222D401900D4EC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1802CF78222D401900D4EC25 /* Assets.xcassets */; };
+		1802CF7C222D401900D4EC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1802CF7A222D401900D4EC25 /* LaunchScreen.storyboard */; };
+		1802CF7F222D401900D4EC25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CF7E222D401900D4EC25 /* main.m */; };
+		1802CF89222D401900D4EC25 /* ZZToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CF88222D401900D4EC25 /* ZZToolsTests.m */; };
+		1802CF94222D401900D4EC25 /* ZZToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CF93222D401900D4EC25 /* ZZToolsUITests.m */; };
+		1802CFBA222D41B700D4EC25 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802CFA4222D41B600D4EC25 /* back@2x.png */; };
+		1802CFBB222D41B700D4EC25 /* UIViewController+PrivateNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFA5222D41B600D4EC25 /* UIViewController+PrivateNavigationBar.m */; };
+		1802CFBC222D41B700D4EC25 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802CFA6222D41B600D4EC25 /* back@3x.png */; };
+		1802CFBD222D41B700D4EC25 /* ZZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFA7222D41B600D4EC25 /* ZZNavigationViewController.m */; };
+		1802CFBE222D41B700D4EC25 /* ZZNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFAA222D41B600D4EC25 /* ZZNavigationBar.m */; };
+		1802CFBF222D41B700D4EC25 /* ZZNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1802CFAC222D41B600D4EC25 /* ZZNavigationBar.xib */; };
+		1802CFC0222D41B700D4EC25 /* ZZTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFAD222D41B600D4EC25 /* ZZTools.mm */; };
+		1802CFC1222D41B700D4EC25 /* TimeTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFAE222D41B600D4EC25 /* TimeTool.mm */; };
+		1802CFC2222D41B700D4EC25 /* UIImage+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFAF222D41B600D4EC25 /* UIImage+Corner.m */; };
+		1802CFC3222D41B700D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB4222D41B600D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		1802CFC4222D41B700D4EC25 /* SaveUsePHAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB5222D41B600D4EC25 /* SaveUsePHAsset.m */; };
+		1802CFC5222D41B700D4EC25 /* ZZObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB7222D41B600D4EC25 /* ZZObject.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1802CF85222D401900D4EC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1802CF64222D401800D4EC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1802CF6B222D401800D4EC25;
+			remoteInfo = ZZTools;
+		};
+		1802CF90222D401900D4EC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1802CF64222D401800D4EC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1802CF6B222D401800D4EC25;
+			remoteInfo = ZZTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1802CF6C222D401800D4EC25 /* ZZTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802CF6F222D401800D4EC25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1802CF70222D401800D4EC25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1802CF72222D401800D4EC25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1802CF73222D401800D4EC25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1802CF76222D401800D4EC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1802CF78222D401900D4EC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1802CF7B222D401900D4EC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1802CF7D222D401900D4EC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1802CF7E222D401900D4EC25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1802CF84222D401900D4EC25 /* ZZToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802CF88222D401900D4EC25 /* ZZToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZToolsTests.m; sourceTree = "<group>"; };
+		1802CF8A222D401900D4EC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1802CF8F222D401900D4EC25 /* ZZToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802CF93222D401900D4EC25 /* ZZToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZToolsUITests.m; sourceTree = "<group>"; };
+		1802CF95222D401900D4EC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1802CFA2222D41B600D4EC25 /* TimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTool.h; sourceTree = "<group>"; };
+		1802CFA4222D41B600D4EC25 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		1802CFA5222D41B600D4EC25 /* UIViewController+PrivateNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PrivateNavigationBar.m"; sourceTree = "<group>"; };
+		1802CFA6222D41B600D4EC25 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		1802CFA7222D41B600D4EC25 /* ZZNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationViewController.m; sourceTree = "<group>"; };
+		1802CFA8222D41B600D4EC25 /* ZZNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationBar.h; sourceTree = "<group>"; };
+		1802CFA9222D41B600D4EC25 /* UIViewController+PrivateNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PrivateNavigationBar.h"; sourceTree = "<group>"; };
+		1802CFAA222D41B600D4EC25 /* ZZNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationBar.m; sourceTree = "<group>"; };
+		1802CFAB222D41B600D4EC25 /* ZZNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationViewController.h; sourceTree = "<group>"; };
+		1802CFAC222D41B600D4EC25 /* ZZNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZNavigationBar.xib; sourceTree = "<group>"; };
+		1802CFAD222D41B600D4EC25 /* ZZTools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZTools.mm; sourceTree = "<group>"; };
+		1802CFAE222D41B600D4EC25 /* TimeTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TimeTool.mm; sourceTree = "<group>"; };
+		1802CFAF222D41B600D4EC25 /* UIImage+Corner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Corner.m"; sourceTree = "<group>"; };
+		1802CFB1222D41B600D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		1802CFB2222D41B600D4EC25 /* SaveUsePHAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveUsePHAsset.h; sourceTree = "<group>"; };
+		1802CFB3222D41B600D4EC25 /* PHAsset+Sneaky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+Sneaky.h"; sourceTree = "<group>"; };
+		1802CFB4222D41B600D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		1802CFB5222D41B600D4EC25 /* SaveUsePHAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveUsePHAsset.m; sourceTree = "<group>"; };
+		1802CFB6222D41B600D4EC25 /* UIImage+Corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Corner.h"; sourceTree = "<group>"; };
+		1802CFB7222D41B600D4EC25 /* ZZObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZObject.mm; sourceTree = "<group>"; };
+		1802CFB8222D41B600D4EC25 /* ZZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTools.h; sourceTree = "<group>"; };
+		1802CFB9222D41B600D4EC25 /* ZZObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1802CF69222D401800D4EC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1802CF81222D401900D4EC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1802CF8C222D401900D4EC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1802CF63222D401800D4EC25 = {
+			isa = PBXGroup;
+			children = (
+				1802CF6E222D401800D4EC25 /* ZZTools */,
+				1802CF87222D401900D4EC25 /* ZZToolsTests */,
+				1802CF92222D401900D4EC25 /* ZZToolsUITests */,
+				1802CF6D222D401800D4EC25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1802CF6D222D401800D4EC25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1802CF6C222D401800D4EC25 /* ZZTools.app */,
+				1802CF84222D401900D4EC25 /* ZZToolsTests.xctest */,
+				1802CF8F222D401900D4EC25 /* ZZToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1802CF6E222D401800D4EC25 /* ZZTools */ = {
+			isa = PBXGroup;
+			children = (
+				1802CFC6222D42C400D4EC25 /* Resources */,
+				1802CFA1222D418700D4EC25 /* Classes */,
+				1802CF6F222D401800D4EC25 /* AppDelegate.h */,
+				1802CF70222D401800D4EC25 /* AppDelegate.m */,
+				1802CF72222D401800D4EC25 /* ViewController.h */,
+				1802CF73222D401800D4EC25 /* ViewController.m */,
+				1802CF75222D401800D4EC25 /* Main.storyboard */,
+				1802CF78222D401900D4EC25 /* Assets.xcassets */,
+				1802CF7A222D401900D4EC25 /* LaunchScreen.storyboard */,
+				1802CF7D222D401900D4EC25 /* Info.plist */,
+				1802CF7E222D401900D4EC25 /* main.m */,
+			);
+			path = ZZTools;
+			sourceTree = "<group>";
+		};
+		1802CF87222D401900D4EC25 /* ZZToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1802CF88222D401900D4EC25 /* ZZToolsTests.m */,
+				1802CF8A222D401900D4EC25 /* Info.plist */,
+			);
+			path = ZZToolsTests;
+			sourceTree = "<group>";
+		};
+		1802CF92222D401900D4EC25 /* ZZToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1802CF93222D401900D4EC25 /* ZZToolsUITests.m */,
+				1802CF95222D401900D4EC25 /* Info.plist */,
+			);
+			path = ZZToolsUITests;
+			sourceTree = "<group>";
+		};
+		1802CFA1222D418700D4EC25 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1802CFB0222D41B600D4EC25 /* SaveVideoMethod */,
+				1802CFA2222D41B600D4EC25 /* TimeTool.h */,
+				1802CFAE222D41B600D4EC25 /* TimeTool.mm */,
+				1802CFB6222D41B600D4EC25 /* UIImage+Corner.h */,
+				1802CFAF222D41B600D4EC25 /* UIImage+Corner.m */,
+				1802CFA3222D41B600D4EC25 /* zzNavigationView */,
+				1802CFB9222D41B600D4EC25 /* ZZObject.h */,
+				1802CFB7222D41B600D4EC25 /* ZZObject.mm */,
+				1802CFB8222D41B600D4EC25 /* ZZTools.h */,
+				1802CFAD222D41B600D4EC25 /* ZZTools.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1802CFA3222D41B600D4EC25 /* zzNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				1802CFA5222D41B600D4EC25 /* UIViewController+PrivateNavigationBar.m */,
+				1802CFA7222D41B600D4EC25 /* ZZNavigationViewController.m */,
+				1802CFA8222D41B600D4EC25 /* ZZNavigationBar.h */,
+				1802CFA9222D41B600D4EC25 /* UIViewController+PrivateNavigationBar.h */,
+				1802CFAA222D41B600D4EC25 /* ZZNavigationBar.m */,
+				1802CFAB222D41B600D4EC25 /* ZZNavigationViewController.h */,
+			);
+			path = zzNavigationView;
+			sourceTree = "<group>";
+		};
+		1802CFB0222D41B600D4EC25 /* SaveVideoMethod */ = {
+			isa = PBXGroup;
+			children = (
+				1802CFB1222D41B600D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				1802CFB2222D41B600D4EC25 /* SaveUsePHAsset.h */,
+				1802CFB3222D41B600D4EC25 /* PHAsset+Sneaky.h */,
+				1802CFB4222D41B600D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				1802CFB5222D41B600D4EC25 /* SaveUsePHAsset.m */,
+			);
+			path = SaveVideoMethod;
+			sourceTree = "<group>";
+		};
+		1802CFC6222D42C400D4EC25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1802CFA4222D41B600D4EC25 /* back@2x.png */,
+				1802CFA6222D41B600D4EC25 /* back@3x.png */,
+				1802CFAC222D41B600D4EC25 /* ZZNavigationBar.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1802CF6B222D401800D4EC25 /* ZZTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1802CF98222D401900D4EC25 /* Build configuration list for PBXNativeTarget "ZZTools" */;
+			buildPhases = (
+				1802CF68222D401800D4EC25 /* Sources */,
+				1802CF69222D401800D4EC25 /* Frameworks */,
+				1802CF6A222D401800D4EC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZTools;
+			productName = ZZTools;
+			productReference = 1802CF6C222D401800D4EC25 /* ZZTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1802CF83222D401900D4EC25 /* ZZToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1802CF9B222D401900D4EC25 /* Build configuration list for PBXNativeTarget "ZZToolsTests" */;
+			buildPhases = (
+				1802CF80222D401900D4EC25 /* Sources */,
+				1802CF81222D401900D4EC25 /* Frameworks */,
+				1802CF82222D401900D4EC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1802CF86222D401900D4EC25 /* PBXTargetDependency */,
+			);
+			name = ZZToolsTests;
+			productName = ZZToolsTests;
+			productReference = 1802CF84222D401900D4EC25 /* ZZToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1802CF8E222D401900D4EC25 /* ZZToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1802CF9E222D401900D4EC25 /* Build configuration list for PBXNativeTarget "ZZToolsUITests" */;
+			buildPhases = (
+				1802CF8B222D401900D4EC25 /* Sources */,
+				1802CF8C222D401900D4EC25 /* Frameworks */,
+				1802CF8D222D401900D4EC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1802CF91222D401900D4EC25 /* PBXTargetDependency */,
+			);
+			name = ZZToolsUITests;
+			productName = ZZToolsUITests;
+			productReference = 1802CF8F222D401900D4EC25 /* ZZToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1802CF64222D401800D4EC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1802CF6B222D401800D4EC25 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1802CF83222D401900D4EC25 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1802CF6B222D401800D4EC25;
+					};
+					1802CF8E222D401900D4EC25 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1802CF6B222D401800D4EC25;
+					};
+				};
+			};
+			buildConfigurationList = 1802CF67222D401800D4EC25 /* Build configuration list for PBXProject "ZZTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1802CF63222D401800D4EC25;
+			productRefGroup = 1802CF6D222D401800D4EC25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1802CF6B222D401800D4EC25 /* ZZTools */,
+				1802CF83222D401900D4EC25 /* ZZToolsTests */,
+				1802CF8E222D401900D4EC25 /* ZZToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1802CF6A222D401800D4EC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802CFBC222D41B700D4EC25 /* back@3x.png in Resources */,
+				1802CF7C222D401900D4EC25 /* LaunchScreen.storyboard in Resources */,
+				1802CFBA222D41B700D4EC25 /* back@2x.png in Resources */,
+				1802CFBF222D41B700D4EC25 /* ZZNavigationBar.xib in Resources */,
+				1802CF79222D401900D4EC25 /* Assets.xcassets in Resources */,
+				1802CF77222D401800D4EC25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1802CF82222D401900D4EC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1802CF8D222D401900D4EC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1802CF68222D401800D4EC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802CFC1222D41B700D4EC25 /* TimeTool.mm in Sources */,
+				1802CFBD222D41B700D4EC25 /* ZZNavigationViewController.m in Sources */,
+				1802CF74222D401800D4EC25 /* ViewController.m in Sources */,
+				1802CF7F222D401900D4EC25 /* main.m in Sources */,
+				1802CFC0222D41B700D4EC25 /* ZZTools.mm in Sources */,
+				1802CFC3222D41B700D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+				1802CFC2222D41B700D4EC25 /* UIImage+Corner.m in Sources */,
+				1802CFBE222D41B700D4EC25 /* ZZNavigationBar.m in Sources */,
+				1802CFBB222D41B700D4EC25 /* UIViewController+PrivateNavigationBar.m in Sources */,
+				1802CFC4222D41B700D4EC25 /* SaveUsePHAsset.m in Sources */,
+				1802CFC5222D41B700D4EC25 /* ZZObject.mm in Sources */,
+				1802CF71222D401800D4EC25 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1802CF80222D401900D4EC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802CF89222D401900D4EC25 /* ZZToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1802CF8B222D401900D4EC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802CF94222D401900D4EC25 /* ZZToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1802CF86222D401900D4EC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1802CF6B222D401800D4EC25 /* ZZTools */;
+			targetProxy = 1802CF85222D401900D4EC25 /* PBXContainerItemProxy */;
+		};
+		1802CF91222D401900D4EC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1802CF6B222D401800D4EC25 /* ZZTools */;
+			targetProxy = 1802CF90222D401900D4EC25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1802CF75222D401800D4EC25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1802CF76222D401800D4EC25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1802CF7A222D401900D4EC25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1802CF7B222D401900D4EC25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1802CF96222D401900D4EC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1802CF97222D401900D4EC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1802CF99222D401900D4EC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DTQ9R4LNG;
+				INFOPLIST_FILE = ZZTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yf.ZZTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1802CF9A222D401900D4EC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DTQ9R4LNG;
+				INFOPLIST_FILE = ZZTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yf.ZZTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1802CF9C222D401900D4EC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DTQ9R4LNG;
+				INFOPLIST_FILE = ZZToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yf.ZZToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTools.app/ZZTools";
+			};
+			name = Debug;
+		};
+		1802CF9D222D401900D4EC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DTQ9R4LNG;
+				INFOPLIST_FILE = ZZToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yf.ZZToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTools.app/ZZTools";
+			};
+			name = Release;
+		};
+		1802CF9F222D401900D4EC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DTQ9R4LNG;
+				INFOPLIST_FILE = ZZToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yf.ZZToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTools;
+			};
+			name = Debug;
+		};
+		1802CFA0222D401900D4EC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DTQ9R4LNG;
+				INFOPLIST_FILE = ZZToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yf.ZZToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1802CF67222D401800D4EC25 /* Build configuration list for PBXProject "ZZTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1802CF96222D401900D4EC25 /* Debug */,
+				1802CF97222D401900D4EC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1802CF98222D401900D4EC25 /* Build configuration list for PBXNativeTarget "ZZTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1802CF99222D401900D4EC25 /* Debug */,
+				1802CF9A222D401900D4EC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1802CF9B222D401900D4EC25 /* Build configuration list for PBXNativeTarget "ZZToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1802CF9C222D401900D4EC25 /* Debug */,
+				1802CF9D222D401900D4EC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1802CF9E222D401900D4EC25 /* Build configuration list for PBXNativeTarget "ZZToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1802CF9F222D401900D4EC25 /* Debug */,
+				1802CFA0222D401900D4EC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1802CF64222D401800D4EC25 /* Project object */;
+}
