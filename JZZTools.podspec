@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JZZTools"
-  s.version      = "0.1.3"
+  s.version      = "0.1.5"
   s.summary      = "登录模块"
 
   #s.description  = <<-DESC
