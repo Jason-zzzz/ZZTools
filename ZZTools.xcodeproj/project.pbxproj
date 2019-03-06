@@ -27,6 +27,8 @@
 		1802CFC3222D41B700D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB4222D41B600D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		1802CFC4222D41B700D4EC25 /* SaveUsePHAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB5222D41B600D4EC25 /* SaveUsePHAsset.m */; };
 		1802CFC5222D41B700D4EC25 /* ZZObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB7222D41B600D4EC25 /* ZZObject.mm */; };
+		18CCD6C9222E6F42008DA338 /* NSBundle+privateBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCD6C8222E6F42008DA338 /* NSBundle+privateBundle.m */; };
+		18CCD6D0222F63DC008DA338 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCD6CC222F63DC008DA338 /* UIView+LayoutMethods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,10 @@
 		1802CFB7222D41B600D4EC25 /* ZZObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZObject.mm; sourceTree = "<group>"; };
 		1802CFB8222D41B600D4EC25 /* ZZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTools.h; sourceTree = "<group>"; };
 		1802CFB9222D41B600D4EC25 /* ZZObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZObject.h; sourceTree = "<group>"; };
+		18CCD6C7222E6F42008DA338 /* NSBundle+privateBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+privateBundle.h"; sourceTree = "<group>"; };
+		18CCD6C8222E6F42008DA338 /* NSBundle+privateBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+privateBundle.m"; sourceTree = "<group>"; };
+		18CCD6CC222F63DC008DA338 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		18CCD6CE222F63DC008DA338 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,7 @@
 		1802CFA1222D418700D4EC25 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				18CCD6CA222F63DC008DA338 /* HandyFrame */,
 				1802CFB0222D41B600D4EC25 /* SaveVideoMethod */,
 				1802CFA2222D41B600D4EC25 /* TimeTool.h */,
 				1802CFAE222D41B600D4EC25 /* TimeTool.mm */,
@@ -181,6 +188,8 @@
 				1802CFB7222D41B600D4EC25 /* ZZObject.mm */,
 				1802CFB8222D41B600D4EC25 /* ZZTools.h */,
 				1802CFAD222D41B600D4EC25 /* ZZTools.mm */,
+				18CCD6C7222E6F42008DA338 /* NSBundle+privateBundle.h */,
+				18CCD6C8222E6F42008DA338 /* NSBundle+privateBundle.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -188,12 +197,12 @@
 		1802CFA3222D41B600D4EC25 /* zzNavigationView */ = {
 			isa = PBXGroup;
 			children = (
+				1802CFA9222D41B600D4EC25 /* UIViewController+PrivateNavigationBar.h */,
 				1802CFA5222D41B600D4EC25 /* UIViewController+PrivateNavigationBar.m */,
+				1802CFAB222D41B600D4EC25 /* ZZNavigationViewController.h */,
 				1802CFA7222D41B600D4EC25 /* ZZNavigationViewController.m */,
 				1802CFA8222D41B600D4EC25 /* ZZNavigationBar.h */,
-				1802CFA9222D41B600D4EC25 /* UIViewController+PrivateNavigationBar.h */,
 				1802CFAA222D41B600D4EC25 /* ZZNavigationBar.m */,
-				1802CFAB222D41B600D4EC25 /* ZZNavigationViewController.h */,
 			);
 			path = zzNavigationView;
 			sourceTree = "<group>";
@@ -218,6 +227,15 @@
 				1802CFAC222D41B600D4EC25 /* ZZNavigationBar.xib */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		18CCD6CA222F63DC008DA338 /* HandyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				18CCD6CE222F63DC008DA338 /* UIView+LayoutMethods.h */,
+				18CCD6CC222F63DC008DA338 /* UIView+LayoutMethods.m */,
+			);
+			path = HandyFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +375,7 @@
 				1802CFBD222D41B700D4EC25 /* ZZNavigationViewController.m in Sources */,
 				1802CF74222D401800D4EC25 /* ViewController.m in Sources */,
 				1802CF7F222D401900D4EC25 /* main.m in Sources */,
+				18CCD6C9222E6F42008DA338 /* NSBundle+privateBundle.m in Sources */,
 				1802CFC0222D41B700D4EC25 /* ZZTools.mm in Sources */,
 				1802CFC3222D41B700D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				1802CFC2222D41B700D4EC25 /* UIImage+Corner.m in Sources */,
@@ -365,6 +384,7 @@
 				1802CFC4222D41B700D4EC25 /* SaveUsePHAsset.m in Sources */,
 				1802CFC5222D41B700D4EC25 /* ZZObject.mm in Sources */,
 				1802CF71222D401800D4EC25 /* AppDelegate.m in Sources */,
+				18CCD6D0222F63DC008DA338 /* UIView+LayoutMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

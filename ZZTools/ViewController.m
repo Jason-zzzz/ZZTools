@@ -1,12 +1,13 @@
 //
 //  ViewController.m
-//  ZZTools
+//  XZ_login
 //
 //  Created by apple on 2019/3/4.
 //  Copyright © 2019年 apple. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "ZZTools.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    UIViewController * lvc = [[[UIViewController alloc] init] initView];
+    [self presentViewController:lvc animated:YES completion:^{
+        lvc.view.backgroundColor = [UIColor whiteColor];
+    }];
 }
 
 

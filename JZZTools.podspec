@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ZZTools"
-  s.version      = "0.0.1"
+  s.name         = "JZZTools"
+  s.version      = "0.0.7"
   s.summary      = "登录模块"
 
   #s.description  = <<-DESC
@@ -16,15 +16,16 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/Jason-zzzz/ZZTools.git", :commit => "45afef5256553cfd388464a9f0414868ef53eefb" }
+  s.source       = { :git => "https://github.com/Jason-zzzz/ZZTools.git", :tag => s.version.to_s }
 
-  s.source_files  = "ZZTools/Classes/**/*.{h,m}"
+  s.source_files  = "ZZTools/Classes/**/*.{h,m,mm}"
   s.exclude_files = "Classes/Exclude"
 
     s.public_header_files = "ZZTools/Classes/**/*.h"
 
   # s.resource  = "icon.png"
-    s.resources = "ZZTools/Resources/*.png"
+    s.resources = "ZZTools/Resources/*.{png,xib}"
+  # s.resource_bundles = { 'ZZToolsModule' => ['ZZTools/Resources/*.{png,xib}'] }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -34,7 +35,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-    s.dependency "HandyFrame"
+  # s.dependency "HandyFrame"
   # s.dependency "ZZNavigation"
 
 end

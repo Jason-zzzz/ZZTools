@@ -19,7 +19,7 @@
 #import "ZZObject.h"
 #import "PHAsset+Sneaky.h"
 #import <sys/utsname.h>
-#import "UIImage+Corner.h"
+#import "UIImage+Corner.h" 
 #import "UIViewController+PrivateNavigationBar.h" // 自定义navigation
 /**********************/
 

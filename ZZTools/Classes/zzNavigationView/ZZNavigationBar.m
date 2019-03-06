@@ -7,6 +7,7 @@
 //
 
 #import "ZZNavigationBar.h"
+#import "NSBundle+privateBundle.h"
 
 #ifndef SCREEN_WIDTH
 #define NAV_HEIGHT 64
@@ -35,7 +36,9 @@
     
     self = [super init];
     if (self) {
-        self = [[[NSBundle mainBundle] loadNibNamed:@"ZZNavigationBar" owner:nil options:nil] lastObject];
+//        self = [[[NSBundle mainBundle] loadNibNamed:@"ZZNavigationBar" owner:nil options:nil] lastObject];
+        self = [[[NSBundle privateBundleWithName:@"ZZNavigationBar" targetClass:[self class]]  loadNibNamed:@"ZZNavigationBar" owner:self options:nil] lastObject];
+        
         self.frame = CGRectMake(0, 0, SCREEN_WIDTH, NAV_HEIGHT);
         self.lowestView.frame = CGRectMake(0, 0, SCREEN_WIDTH, NAV_HEIGHT);
 //        NSLog(@"%f",self.lowestView.frame.size.width);
