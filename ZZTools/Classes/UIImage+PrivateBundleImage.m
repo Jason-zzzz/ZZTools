@@ -11,7 +11,7 @@
 
 @implementation UIImage (PrivateBundleImage)
 
-+ (UIImage *)imageWithBundleName:(NSString *)bundleName imageName:(NSString *)imageName {
++ (UIImage *)imageNamed:(NSString *)imageName inPrivateBundle:(NSString *)bundleName {
     
     NSBundle *bundle = [NSBundle privateBundleWithName:bundleName targetClass:[self class]];
     

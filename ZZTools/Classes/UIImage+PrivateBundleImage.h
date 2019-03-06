@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (PrivateBundleImage)
 
-+ (UIImage *)imageWithBundleName:(NSString *)bundleName imageName:(NSString *)imageName;
++ (UIImage *)imageNamed:(NSString *)imageName inPrivateBundle:(NSString *)bundleName;
 
 @end
 
