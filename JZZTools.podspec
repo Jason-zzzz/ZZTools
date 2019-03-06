@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JZZTools"
-  s.version      = "0.0.7"
+  s.version      = "0.1.2"
   s.summary      = "登录模块"
 
   #s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
     s.resources = "ZZTools/Resources/*.{png,xib}"
-  # s.resource_bundles = { 'ZZToolsModule' => ['ZZTools/Resources/*.{png,xib}'] }
+    s.resource_bundles = { 'ZZNavigationBar' => ['ZZTools/Resources/*.{png,xib}'] }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

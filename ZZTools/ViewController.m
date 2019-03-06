@@ -24,6 +24,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     UIViewController * lvc = [[[UIViewController alloc] init] initView];
+//    UIViewController * lvc = [[UIViewController alloc] init];
     [self presentViewController:lvc animated:YES completion:^{
         lvc.view.backgroundColor = [UIColor whiteColor];
     }];
