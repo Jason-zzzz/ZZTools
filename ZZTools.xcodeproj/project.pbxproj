@@ -29,6 +29,7 @@
 		1802CFC5222D41B700D4EC25 /* ZZObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB7222D41B600D4EC25 /* ZZObject.mm */; };
 		18CCD6C9222E6F42008DA338 /* NSBundle+privateBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCD6C8222E6F42008DA338 /* NSBundle+privateBundle.m */; };
 		18CCD6D0222F63DC008DA338 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCD6CC222F63DC008DA338 /* UIView+LayoutMethods.m */; };
+		18CCD6D6222FC4A2008DA338 /* UIImage+PrivateBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCD6D5222FC4A2008DA338 /* UIImage+PrivateBundleImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,8 @@
 		18CCD6C8222E6F42008DA338 /* NSBundle+privateBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+privateBundle.m"; sourceTree = "<group>"; };
 		18CCD6CC222F63DC008DA338 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
 		18CCD6CE222F63DC008DA338 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		18CCD6D4222FC4A2008DA338 /* UIImage+PrivateBundleImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+PrivateBundleImage.h"; sourceTree = "<group>"; };
+		18CCD6D5222FC4A2008DA338 /* UIImage+PrivateBundleImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PrivateBundleImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				1802CFAE222D41B600D4EC25 /* TimeTool.mm */,
 				1802CFB6222D41B600D4EC25 /* UIImage+Corner.h */,
 				1802CFAF222D41B600D4EC25 /* UIImage+Corner.m */,
+				18CCD6D4222FC4A2008DA338 /* UIImage+PrivateBundleImage.h */,
+				18CCD6D5222FC4A2008DA338 /* UIImage+PrivateBundleImage.m */,
 				1802CFA3222D41B600D4EC25 /* zzNavigationView */,
 				1802CFB9222D41B600D4EC25 /* ZZObject.h */,
 				1802CFB7222D41B600D4EC25 /* ZZObject.mm */,
@@ -383,6 +388,7 @@
 				1802CFBB222D41B700D4EC25 /* UIViewController+PrivateNavigationBar.m in Sources */,
 				1802CFC4222D41B700D4EC25 /* SaveUsePHAsset.m in Sources */,
 				1802CFC5222D41B700D4EC25 /* ZZObject.mm in Sources */,
+				18CCD6D6222FC4A2008DA338 /* UIImage+PrivateBundleImage.m in Sources */,
 				1802CF71222D401800D4EC25 /* AppDelegate.m in Sources */,
 				18CCD6D0222F63DC008DA338 /* UIView+LayoutMethods.m in Sources */,
 			);
