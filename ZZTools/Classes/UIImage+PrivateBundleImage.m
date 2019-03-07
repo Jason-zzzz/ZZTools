@@ -18,7 +18,13 @@
     associateBundleURL = [associateBundleURL URLByAppendingPathExtension:@"framework"];
     NSBundle *associateBunle = [NSBundle bundleWithURL:associateBundleURL];
     associateBundleURL = [associateBunle URLForResource:bundleName withExtension:@"bundle"];
-    NSBundle *bundle = [NSBundle bundleWithURL:associateBundleURL];
+    
+    NSBundle *bundle;
+    if (associateBundleURL == nil) {
+        bundle = [NSBundle mainBundle];
+    } else {
+        bundle = [NSBundle bundleWithURL:associateBundleURL];
+    }
     
     return [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
 }
