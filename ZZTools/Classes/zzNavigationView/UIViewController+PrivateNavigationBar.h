@@ -13,6 +13,6 @@
 
 @property (strong, nonatomic) ZZNavigationBar * zzNavigationBar;
 
-- (instancetype)initView;
++ (instancetype)initView:(UIViewController *)controller;
 
 @end

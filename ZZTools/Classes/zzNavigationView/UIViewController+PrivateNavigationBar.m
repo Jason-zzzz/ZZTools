@@ -43,16 +43,17 @@
         self.zzNavigationBar.frame = CGRectMake(0, 0, SCREEN_WIDTH, 64);
     }
 }
-
-- (instancetype)initView {
-    self.zzNavigationBar = [[ZZNavigationBar alloc] init];
-//    [ZZTools setShadow:self.zzNavigationBar.lowestView width:1];
+ 
++ (instancetype)initView:(UIViewController *)controller {
+    controller.zzNavigationBar = [[ZZNavigationBar alloc] init];
+    //    [ZZTools setShadow:self.zzNavigationBar.lowestView width:1];
     
-    // 调用self的相关参数需在调用self.zzNavigationBar的参数之后，避免先调用而触发实例controller的viewDidLoad方法 
-//    self.view.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:self.zzNavigationBar];
-    return self;
+    // 调用self的相关参数需在调用self.zzNavigationBar的参数之后，避免先调用而触发实例controller的viewDidLoad方法
+    //    self.view.backgroundColor = [UIColor whiteColor];
+    [controller.view addSubview:controller.zzNavigationBar];
+    return controller;
 }
+
 
 - (ZZNavigationBar *)zzNavigationBar{
     return objc_getAssociatedObject(self, @"zzNavigationBar");
