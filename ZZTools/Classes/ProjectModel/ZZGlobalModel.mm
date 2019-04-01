@@ -6,11 +6,11 @@
 //  Copyright © 2018年 Ömer Faruk Gül. All rights reserved.
 //
 
-#import "ZZObject.h"
+#import "ZZGlobalModel.h"
 
-@implementation ZZObject
+@implementation ZZGlobalModel
 
-- (ZZObject *)init {
+- (ZZGlobalModel *)init {
     if (self = [super init]) {
         _alal = [[ALAssetsLibrary alloc] init];
     }

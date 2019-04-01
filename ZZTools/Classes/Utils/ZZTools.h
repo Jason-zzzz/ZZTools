@@ -6,17 +6,14 @@
 //  Copyright © 2018年 Ömer Faruk Gül. All rights reserved.
 //
 
-#define NAV_HEIGHT 64
-//获取屏幕 宽度、高度
-#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
-#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 
 /***** 必须引入的类 *****/
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "Macro.h" // 宏
 #import "TimeTool.h"
 #import "ALAssetsLibrary+CustomPhotoAlbum.h"
-#import "ZZObject.h"
+#import "ZZGlobalModel.h"
 #import "PHAsset+Sneaky.h"
 #import <sys/utsname.h>
 #import "UIImage+Corner.h"
@@ -34,7 +31,7 @@
 + (void)PHAssettoALAsset:(PHAsset *)phAsset complete:(void(^)(ALAsset *))complete;
 
 
-+ (ZZObject *)object;
++ (ZZGlobalModel *)object;
 
 + (NSString *)getYFFileNameWithType:(NSString *)type;
 // 手机型号
@@ -51,16 +48,20 @@
 // 第一次启动
 + (BOOL)firstLuanch;
 + (BOOL)firstLuanch2p1; // 2.1版本第一次启动
++ (BOOL)firstLuanch:(NSString *)version; // 自定义版本号
 
 // 上传图片
 + (void)uploadImage:(UIImage *)image;
+
 // 下载pdf
 + (void)downloadPDF;
 
 // 出现动画
 + (void)viewAppear:(UIView*)view animation:(void (^)(void))animation complete:(void (^)(void))complete;
+
 // 消失动画
 + (void)viewDisappear:(UIView*)view animation:(void (^)(void))animation complete:(void (^)(void))complete;
+
 /**
  * 文字下划线
  * 默认参数 0 - string.length

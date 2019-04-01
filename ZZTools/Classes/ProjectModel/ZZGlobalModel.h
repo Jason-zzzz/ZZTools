@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ALAssetsLibrary+CustomPhotoAlbum.h"
 
-@interface ZZObject : NSObject
+@interface ZZGlobalModel : NSObject
 
 @property (nonatomic, strong) ALAssetsLibrary * alal;
 @property (nonatomic, assign) float pmm; // 每毫米像素个数，根据屏幕大小不同而不同

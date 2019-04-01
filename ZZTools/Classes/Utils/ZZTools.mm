@@ -74,6 +74,15 @@
     });
 }
 
++ (BOOL)firstLuanch:(NSString *)version {
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"version"]){
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"version"];
+        return YES;
+    }else{
+        return NO;
+    }
+}
+
 + (BOOL)firstLuanch {
     if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
@@ -381,10 +390,10 @@
     view.transform = CGAffineTransformMakeScale(scale, scale);
 }
 
-static ZZObject * object;// 定位信息
-+ (ZZObject *)object {
-    extern ZZObject * object;
-    if (!object) object = [[ZZObject alloc] init];
+static ZZGlobalModel * object;// 定位信息
++ (ZZGlobalModel *)object {
+    extern ZZGlobalModel * object;
+    if (!object) object = [[ZZGlobalModel alloc] init];
     object.pmm = [ZZTools caculatePixelLength];
     return object;
 }
