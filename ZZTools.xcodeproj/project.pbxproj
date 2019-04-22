@@ -27,6 +27,14 @@
 		1802CFC3222D41B700D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB4222D41B600D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		1802CFC4222D41B700D4EC25 /* SaveUsePHAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB5222D41B600D4EC25 /* SaveUsePHAsset.m */; };
 		1802CFC5222D41B700D4EC25 /* ZZGlobalModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1802CFB7222D41B600D4EC25 /* ZZGlobalModel.mm */; };
+		181990A7226D69680073F93E /* UINavigationController+ShouldPopExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199094226D69680073F93E /* UINavigationController+ShouldPopExtention.m */; };
+		181990A8226D69680073F93E /* UIViewController+KeyboardCorver.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199095226D69680073F93E /* UIViewController+KeyboardCorver.m */; };
+		181990A9226D69680073F93E /* SwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199098226D69680073F93E /* SwipeUpInteractiveTransition.m */; };
+		181990AA226D69680073F93E /* DismissVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199099226D69680073F93E /* DismissVCAnimation.m */; };
+		181990AB226D69680073F93E /* PresentVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819909B226D69680073F93E /* PresentVCAnimation.m */; };
+		181990AC226D69680073F93E /* UIViewController+DropdownReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819909E226D69680073F93E /* UIViewController+DropdownReturn.m */; };
+		181990AE226D69680073F93E /* UITextView+placeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 181990A2226D69680073F93E /* UITextView+placeHolder.m */; };
+		181990AF226D69690073F93E /* ZZPlaceHolderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 181990A3226D69680073F93E /* ZZPlaceHolderLabel.m */; };
 		183E9176223B3E0D00648E8C /* UIBezierPath+TextPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E9174223B3E0D00648E8C /* UIBezierPath+TextPath.m */; };
 		18CCD6C9222E6F42008DA338 /* NSBundle+privateBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCD6C8222E6F42008DA338 /* NSBundle+privateBundle.m */; };
 		18CCD6D0222F63DC008DA338 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCD6CC222F63DC008DA338 /* UIView+LayoutMethods.m */; };
@@ -89,6 +97,22 @@
 		1802CFB7222D41B600D4EC25 /* ZZGlobalModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZGlobalModel.mm; sourceTree = "<group>"; };
 		1802CFB8222D41B600D4EC25 /* ZZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTools.h; sourceTree = "<group>"; };
 		1802CFB9222D41B600D4EC25 /* ZZGlobalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGlobalModel.h; sourceTree = "<group>"; };
+		18199093226D69680073F93E /* UIViewController+KeyboardCorver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardCorver.h"; sourceTree = "<group>"; };
+		18199094226D69680073F93E /* UINavigationController+ShouldPopExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ShouldPopExtention.m"; sourceTree = "<group>"; };
+		18199095226D69680073F93E /* UIViewController+KeyboardCorver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardCorver.m"; sourceTree = "<group>"; };
+		18199097226D69680073F93E /* PresentVCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentVCAnimation.h; sourceTree = "<group>"; };
+		18199098226D69680073F93E /* SwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
+		18199099226D69680073F93E /* DismissVCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissVCAnimation.m; sourceTree = "<group>"; };
+		1819909A226D69680073F93E /* UIViewController+DropdownReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DropdownReturn.h"; sourceTree = "<group>"; };
+		1819909B226D69680073F93E /* PresentVCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentVCAnimation.m; sourceTree = "<group>"; };
+		1819909C226D69680073F93E /* SwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
+		1819909D226D69680073F93E /* DismissVCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissVCAnimation.h; sourceTree = "<group>"; };
+		1819909E226D69680073F93E /* UIViewController+DropdownReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DropdownReturn.m"; sourceTree = "<group>"; };
+		1819909F226D69680073F93E /* UINavigationController+ShouldPopExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ShouldPopExtention.h"; sourceTree = "<group>"; };
+		181990A2226D69680073F93E /* UITextView+placeHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+placeHolder.m"; sourceTree = "<group>"; };
+		181990A3226D69680073F93E /* ZZPlaceHolderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPlaceHolderLabel.m; sourceTree = "<group>"; };
+		181990A4226D69680073F93E /* UITextView+placeHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+placeHolder.h"; sourceTree = "<group>"; };
+		181990A5226D69680073F93E /* ZZPlaceHolderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPlaceHolderLabel.h; sourceTree = "<group>"; };
 		183E9174223B3E0D00648E8C /* UIBezierPath+TextPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TextPath.m"; sourceTree = "<group>"; };
 		183E9175223B3E0D00648E8C /* UIBezierPath+TextPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TextPath.h"; sourceTree = "<group>"; };
 		183E9177223B545100648E8C /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
@@ -229,6 +253,32 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		18199096226D69680073F93E /* DropdownReturn */ = {
+			isa = PBXGroup;
+			children = (
+				18199097226D69680073F93E /* PresentVCAnimation.h */,
+				1819909B226D69680073F93E /* PresentVCAnimation.m */,
+				1819909C226D69680073F93E /* SwipeUpInteractiveTransition.h */,
+				18199098226D69680073F93E /* SwipeUpInteractiveTransition.m */,
+				18199099226D69680073F93E /* DismissVCAnimation.m */,
+				1819909D226D69680073F93E /* DismissVCAnimation.h */,
+				1819909A226D69680073F93E /* UIViewController+DropdownReturn.h */,
+				1819909E226D69680073F93E /* UIViewController+DropdownReturn.m */,
+			);
+			path = DropdownReturn;
+			sourceTree = "<group>";
+		};
+		181990A1226D69680073F93E /* PlaceholderLabel */ = {
+			isa = PBXGroup;
+			children = (
+				181990A2226D69680073F93E /* UITextView+placeHolder.m */,
+				181990A4226D69680073F93E /* UITextView+placeHolder.h */,
+				181990A3226D69680073F93E /* ZZPlaceHolderLabel.m */,
+				181990A5226D69680073F93E /* ZZPlaceHolderLabel.h */,
+			);
+			path = PlaceholderLabel;
+			sourceTree = "<group>";
+		};
 		183B0A69223A566C00154FA1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +294,12 @@
 		183B0A6A223A567E00154FA1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				18199096226D69680073F93E /* DropdownReturn */,
+				181990A1226D69680073F93E /* PlaceholderLabel */,
+				1819909F226D69680073F93E /* UINavigationController+ShouldPopExtention.h */,
+				18199094226D69680073F93E /* UINavigationController+ShouldPopExtention.m */,
+				18199093226D69680073F93E /* UIViewController+KeyboardCorver.h */,
+				18199095226D69680073F93E /* UIViewController+KeyboardCorver.m */,
 				1802CFB6222D41B600D4EC25 /* UIImage+Corner.h */,
 				1802CFAF222D41B600D4EC25 /* UIImage+Corner.m */,
 				183E9175223B3E0D00648E8C /* UIBezierPath+TextPath.h */,
@@ -407,11 +463,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181990A8226D69680073F93E /* UIViewController+KeyboardCorver.m in Sources */,
 				1802CFC1222D41B700D4EC25 /* TimeTool.mm in Sources */,
 				1802CFBD222D41B700D4EC25 /* ZZNavigationViewController.m in Sources */,
+				181990A9226D69680073F93E /* SwipeUpInteractiveTransition.m in Sources */,
+				181990AA226D69680073F93E /* DismissVCAnimation.m in Sources */,
+				181990A7226D69680073F93E /* UINavigationController+ShouldPopExtention.m in Sources */,
+				181990AE226D69680073F93E /* UITextView+placeHolder.m in Sources */,
 				1802CF74222D401800D4EC25 /* ViewController.m in Sources */,
 				1802CF7F222D401900D4EC25 /* main.m in Sources */,
 				18CCD6C9222E6F42008DA338 /* NSBundle+privateBundle.m in Sources */,
+				181990AB226D69680073F93E /* PresentVCAnimation.m in Sources */,
 				1802CFC0222D41B700D4EC25 /* ZZTools.mm in Sources */,
 				1802CFC3222D41B700D4EC25 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				1802CFC2222D41B700D4EC25 /* UIImage+Corner.m in Sources */,
@@ -420,7 +482,9 @@
 				1802CFC4222D41B700D4EC25 /* SaveUsePHAsset.m in Sources */,
 				183E9176223B3E0D00648E8C /* UIBezierPath+TextPath.m in Sources */,
 				1802CFC5222D41B700D4EC25 /* ZZGlobalModel.mm in Sources */,
+				181990AF226D69690073F93E /* ZZPlaceHolderLabel.m in Sources */,
 				18CCD6D6222FC4A2008DA338 /* UIImage+PrivateBundleImage.m in Sources */,
+				181990AC226D69680073F93E /* UIViewController+DropdownReturn.m in Sources */,
 				1802CF71222D401800D4EC25 /* AppDelegate.m in Sources */,
 				18CCD6D0222F63DC008DA338 /* UIView+LayoutMethods.m in Sources */,
 			);
