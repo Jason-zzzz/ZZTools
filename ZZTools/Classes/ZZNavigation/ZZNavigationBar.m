@@ -51,10 +51,10 @@
 }
 
 - (IBAction)back:(id)sender {
-    if ([self getCurrentVC].navigationController) {
-        [[self getCurrentVC].navigationController popViewControllerAnimated:YES];
-    } else {
+    if ([self getCurrentVC].presentingViewController && [self getCurrentVC].navigationController.viewControllers.count == 1) {
         [[self getCurrentVC] dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        [[self getCurrentVC].navigationController popViewControllerAnimated:YES];
     }
 }
 
